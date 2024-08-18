@@ -393,6 +393,103 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+x
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="learn.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="topbar">
+        <span><ion-icon name="call-outline"></ion-icon>+91  9573777685</span>
+        <ul>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        </ul>
+    </div> -->
+    <nav>
+        <div class="logo">
+            <a href="#"> <img src="logo.jpg" alt="logo"></a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a onclick="location.href='index.html'">Home</a></li>
+            <li><a
+                onclick="location".
+                href="learn.html">About</a></li>
+            <li><a 
+                onclick="location".href="Service.html">Services</a></li>
+                <li><a 
+                    onclick="location".href="warangal.html">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- nav bar ends here -->
+    <section class="intake">
+        <div class="container">
+          <h2>Food Intake by Region</h2>
+          <p>Select a region to see recommended foods:</p>
+          <div class="row">
+            <div class="col">
+              <a href="#" class="region-button" data-region="nizambad">nizambad</a>
+            </div>
+            <div class="col">
+              <a href="#" class="region-button" data-region="mahaboobnagar">mahaboobnagar</a>
+            </div>
+            <div class="col">
+              <a href="#" class="region-button" data-region="warangal">warangal</a>
+            </div>
+            <!-- <div class="col"> -->
+              <!-- <a href="#" class="region-button" data-region="hyderabad">hyderabad</a> -->
+            </div>
+          </div>
+          <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Healthy Regional Foods</title>
+  </head>
+  <body>
+    <header>
+      <h1>Healthy Regional Foods</h1>
+      <nav>
+        <ul>
+          <li><a href="./service.html">nizambad Region</a></li>
+          <li><a href="./mahaboobnagar.html">mahaboobnagar Region</a></li>
+          <li><a href="./warangal1.html">warangal Region</a></li>
+          <!-- <li><a href="#hyderabad">hyderabad Region</a></li> -->
+        </ul>
+      </nav>
+    </header>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+            $(".toggle").on("click",function(){
+                if($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                }else{
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+
+            });
+        });
+    </script>
+</body>
+</html>
 
 # JetBrains Rider
 *.sln.iml
